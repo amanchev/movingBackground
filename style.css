@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 600px;
+}
+
+#front-image {
+    background: url('4front_tree.png') -25px -50px no-repeat;
+    z-index: 5;
+    background-size: calc(100% + 50px);
+}
+
+#back-image {
+    background: url('3back_trees.png') -25px -50px no-repeat;
+    z-index: 4;
+    background-size: calc(100% + 50px);
+}
+
+#mountines-image {
+    background: url('1mountines.png') -25px -50px no-repeat;
+    z-index: 3;
+    background-size: calc(100% + 50px);
+}
+
+#background-image {
+    background: url('2sky_sun.png') -25px -50px no-repeat;
+    z-index: 2;
+    background-size: calc(100% + 50px);
+}
